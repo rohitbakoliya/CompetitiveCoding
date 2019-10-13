@@ -1,5 +1,5 @@
 /* https://www.geeksforgeeks.org/constant-time-range-add-operation-array/ */
-
+/* https://www.hackerearth.com/practice/basic-programming/implementation/basics-of-implementation/practice-problems/algorithm/binary-movement/ */
 #include<bits/stdc++.h>
 using namespace std;
 int main()
