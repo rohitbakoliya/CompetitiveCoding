@@ -11,6 +11,7 @@ int main()
         int c=0 , mx=-1 , v=0;
         cin>>n;
         map< int , int > mp;
+        //initially diff is zero 
         mp[0] = -1;
         for(i=0 ; i<n ; i++)
         {
