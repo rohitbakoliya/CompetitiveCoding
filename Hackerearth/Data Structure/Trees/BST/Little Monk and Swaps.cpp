@@ -61,6 +61,7 @@ int32_t main()
     {
         v.push_back({bst[i] , i});
     }
+//minimun number of swaps requried to make array sorted.
     sort(v.begin() , v.end());
     for(i=1 ; i<=n ; i++)
     {
