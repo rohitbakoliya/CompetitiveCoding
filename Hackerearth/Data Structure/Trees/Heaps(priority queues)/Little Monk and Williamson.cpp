@@ -1,5 +1,5 @@
 //https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/algorithm/little-monk-and-williamson/description/
-//***
+/*
 Detailed Explanation:
 The question asks us to find deal with largest and smallest numbers in queries of type 2,3 and 4. Since priority queue can be either in increasing order or decreasing, we need to maintain two priority queues for this question. Let l be the priority queue containing elements in increasing order and h in decreasing order. As we have to deal with frequency of elements, we also need to maintain an array f for that purpose. Let's deal with each type of query one by one :
 
@@ -15,9 +15,7 @@ Else we take top element of h and l , and find their difference. If the two elem
 Say we had two different elements v1(smaller) and v2(larger) from above step. We know both are present in both the queues, but we are deleting only  v2 from h and v1 from l. Queue h still contains an instance of v1 and similarly, l still contains an instance of v2. But they should ideally get deleted from the queue as per the question. How should we do it?
 
 For achieving this, in each query, we keep popping elements from the priority queue until the queue is non empty and frequency of top element is zero. This we do for both h and l. This makes sure that we don't have any unwanted values in the queues.
-
-
-***//
+*/
 
 
 #include <bits/stdc++.h>
